@@ -4,17 +4,17 @@ import Schools2 from '/assets/Schools2.png'
 
 const Schools = () => {
   return (
-    <div className='bg-main md:mt-20'>
+    <div className='bg-main mt-10 md:mt-20'>
       {/* Schools 1 */}
       <div id="schools-1">
-        <div className='bg-white rounded-br-3xl w-3/5'>
-          <h2 className='text-main md:text-[40px] text-roboto mx-20 my-2'>
+        <div className='bg-white rounded-br-3xl w-4/5 md:w-3/5'>
+          <h2 className='text-main text-lg md:text-[40px] text-roboto mx-5 md:mx-20 my-2'>
             АДТ УЧЕБНАЯ – ШКОЛАМ, КВАНТОРИУМАМ, ЦМИТАМ
           </h2>
         </div>
         <div className='container'>
-          <div className='mt-10 lg:grid lg:grid-cols-2'>
-            <div className='ml-20'>
+          <div className='mt-10 md:grid md:grid-cols-2'>
+            <div className='md:ml-20'>
               <h4 className='text-[20px] text-center'>
                 Использование АДТ в школе
               </h4>
@@ -29,24 +29,24 @@ const Schools = () => {
                 </ol>
               </div>
             </div>
-            <div className='flex max-lg:mt-5 justify-center pl-20 items-center'>
-              <img className=' object-scale-down' src={Schools1}/>
+            <div className='flex justify-center pl-20 items-center'>
+              <img className='hidden md:block object-scale-down' src={Schools1}/>
             </div>
           </div>
         </div>
       </div>
 
       {/* Schools 2 */}
-      <div id="schools-2" className='mt-20 flex flex-col'>
+      <div id="schools-2" className='mt-10 md:mt-20 flex flex-col'>
         <div className='w-full'>
-          <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-2 w-3/5'>
-            <h2 className='text-roboto md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
+          <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-2 w-4/5 md:w-3/5'>
+            <h2 className='text-roboto text-lg md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
           </div>
         </div>
         <div className='container'>
           <div className='mt-10 lg:grid lg:grid-cols-2'>
             <div className='flex max-lg:mt-5 justify-center pr-20 items-center'>
-              <img className='object-scale-down' src={Schools2}/>
+              <img className='hidden md:block object-scale-down' src={Schools2}/>
             </div>
             <div className='flex flex-col items-center'>
               <h4 className='text-[20px] text-center'>
@@ -69,14 +69,14 @@ const Schools = () => {
 
       {/* Schools 3 */}
       <div id="schools-3">
-        <div className='bg-white rounded-br-3xl mt-20 w-3/5'>
-          <h2 className='text-main md:text-[40px] text-roboto mx-20 my-2'>
+        <div className='bg-white rounded-br-3xl mt-10 md:mt-20 w-3/5'>
+          <h2 className='text-main text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ СОЗИДАЮЩАЯ – МАЛЫМ И СТУД. КБ, РАЗРАБОТЧИКАМ БАС
           </h2>
         </div>
         <div className='container'>
           <div className='mt-10 lg:grid lg:grid-cols-2'>
-            <div className='ml-20'>
+            <div className='md:ml-20'>
               <h4 className='text-[20px] text-center'>
                 Использование АДТ на этапе созданиия ЛА и БАС
               </h4>
@@ -92,7 +92,7 @@ const Schools = () => {
               </div>
             </div>
             <div className='flex max-lg:mt-5 justify-center pl-20 items-center'>
-              <img className=' object-scale-down' src={Schools1}/>
+              <img className='hidden md:block object-scale-down' src={Schools1}/>
             </div>
           </div>
         </div>
