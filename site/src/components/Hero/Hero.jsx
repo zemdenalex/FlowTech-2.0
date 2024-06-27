@@ -25,10 +25,16 @@ const Hero = () => {
           <div className='flex justify-center my-3'>
             <h3 className=''>Выберите свою категорию:</h3>
           </div>
-          <div className='flex justify-around px-3 mb-3 text-black'>
-            <button className='bg-white lg:rounded-2xl text-wrap px-3 text-center lg:w-[250px] lg:h-[70px]'>Школы, кванториумы, ЦМИТы</button>
-            <button className='bg-white lg:rounded-2xl text-wrap px-3 text-center lg:w-[250px] lg:h-[70px]'>ВУЗы, СПО</button>
-            <button className='bg-white lg:rounded-2xl text-wrap px-3 text-center lg:w-[250px] lg:h-[70px]'>Малые КБ, разработчики БАС</button>
+          <div className='flex flex-col lg:h-auto h-[300px] justify-between lg:flex-row lg:justify-around px-3 mb-3 text-black'>
+            <a href='#schools-1'>  
+              <button className='bg-white rounded-2xl text-wrap px-3 text-center lg:w-[250px] h-[70px]'>Школы, кванториумы, ЦМИТы</button>
+            </a>
+            <a href='#schools-2'>
+              <button className='bg-white rounded-2xl text-wrap px-3 text-center lg:w-[250px] h-[70px]'>ВУЗы, СПО</button>
+            </a>
+            <a href='#schools-3'>
+              <button className='bg-white rounded-2xl text-wrap px-3 text-center lg:w-[250px] h-[70px]'>Малые КБ, разработчики БАС</button>
+            </a>
           </div>
         </div>
       </div>

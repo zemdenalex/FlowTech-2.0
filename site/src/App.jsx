@@ -8,7 +8,7 @@ import About from './components/About/About'
 
 const App = () => {
   return (
-    <main>
+    <main className='bg-main text-white'>
       <Header />
       <Hero />
       <About />
