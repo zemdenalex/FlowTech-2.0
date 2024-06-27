@@ -4,12 +4,12 @@ import Schools2 from '/assets/Schools2.png'
 
 const Schools = () => {
   return (
-    <div className='bg-main mt-20'>
+    <div className='bg-main md:mt-20'>
       {/* Schools 1 */}
       <div id="schools-1">
         <div className='bg-white rounded-br-3xl w-3/5'>
           <h2 className='text-main md:text-[40px] text-roboto mx-20 my-2'>
-            АДТ – УЧЕБНАЯ – ШКОЛАМ, КВАНТОРИУМАМ, ЦМИТАМ
+            АДТ УЧЕБНАЯ – ШКОЛАМ, КВАНТОРИУМАМ, ЦМИТАМ
           </h2>
         </div>
         <div className='container'>
@@ -40,7 +40,7 @@ const Schools = () => {
       <div id="schools-2" className='mt-20 flex flex-col'>
         <div className='w-full'>
           <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-2 w-3/5'>
-            <h2 className='text-roboto md:text-[40px]'>АДТ – ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
+            <h2 className='text-roboto md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
           </div>
         </div>
         <div className='container'>
@@ -71,7 +71,7 @@ const Schools = () => {
       <div id="schools-3">
         <div className='bg-white rounded-br-3xl mt-20 w-3/5'>
           <h2 className='text-main md:text-[40px] text-roboto mx-20 my-2'>
-            АДТ – СОЗИДАЮЩАЯ – МАЛЫМ И СТУД. КБ, РАЗРАБОТЧИКАМ БАС
+            АДТ СОЗИДАЮЩАЯ – МАЛЫМ И СТУД. КБ, РАЗРАБОТЧИКАМ БАС
           </h2>
         </div>
         <div className='container'>
