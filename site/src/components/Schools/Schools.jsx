@@ -7,7 +7,7 @@ const Schools = () => {
     <div className='bg-main mt-10 md:mt-20'>
       {/* Schools 1 */}
       <div id="schools-1">
-        <div className='bg-white rounded-br-3xl w-4/5 md:w-3/5'>
+        <div className='bg-white rounded-br-3xl w-[90%] md:w-3/5'>
           <h2 className='text-main md:py-2 font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ УЧЕБНАЯ – ШКОЛАМ, КВАНТОРИУМАМ, ЦМИТАМ
           </h2>
@@ -18,7 +18,7 @@ const Schools = () => {
               <h4 className='text-[20px] text-center'>
                 Использование АДТ в школе
               </h4>
-              <div className=' border-[7px] border-border pl-10 rounded-2xl mt-5 py-3'>
+              <div className='border-[7px] border-border pl-10 rounded-2xl mt-5 py-3'>
                 <ol className='list-disc text-[16px]'>
                   <li>68 академических часа </li>
                   <li>Разработана специально для образовательных учреждений </li>
@@ -39,7 +39,7 @@ const Schools = () => {
       {/* Schools 2 */}
       <div id="schools-2" className='mt-10 md:mt-20 flex flex-col'>
         <div className='w-full'>
-          <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-1 w-4/5 md:w-3/5'>
+          <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-1 w-[90%] md:w-3/5'>
             <h2 className='text-roboto md:py-2 font-medium text-lg md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Schools = () => {
 
       {/* Schools 3 */}
       <div id="schools-3">
-        <div className='bg-white rounded-br-3xl mt-10 md:mt-20 w-3/5'>
+        <div className='bg-white rounded-br-3xl mt-10 md:mt-20 w-[90%] md:w-3/5'>
           <h2 className='text-main md:py-2 font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ СОЗИДАЮЩАЯ – МАЛЫМ И СТУД. КБ, РАЗРАБОТЧИКАМ БАС
           </h2>
