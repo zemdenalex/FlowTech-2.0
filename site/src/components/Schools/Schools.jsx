@@ -6,14 +6,14 @@ const Schools = () => {
   return (
     <div className='bg-main mt-10 md:mt-20'>
       {/* Schools 1 */}
-      <div id="schools-1">
+      <div id="schools-1" className='md:min-h-[600px]'>
         <div className='bg-white rounded-br-3xl w-[90%] md:w-3/5'>
           <h2 className='text-main md:py-2 font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ УЧЕБНАЯ – ШКОЛАМ, КВАНТОРИУМАМ, ЦМИТАМ
           </h2>
         </div>
         <div className='container'>
-          <div className='mt-10 md:grid md:grid-cols-2'>
+          <div className='mt-10 md:mt-20 md:grid md:grid-cols-2'>
             <div className='md:ml-20'>
               <h4 className='text-[20px] text-center'>
                 Использование АДТ в школе
@@ -37,14 +37,14 @@ const Schools = () => {
       </div>
 
       {/* Schools 2 */}
-      <div id="schools-2" className='mt-10 md:mt-20 flex flex-col'>
+      <div id="schools-2" className='mt-10 md:mt-20 flex flex-col md:min-h-[600px]'>
         <div className='w-full'>
           <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-1 w-[90%] md:w-3/5'>
             <h2 className='text-roboto md:py-2 font-medium text-lg md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
           </div>
         </div>
         <div className='container'>
-          <div className='mt-10 lg:grid lg:grid-cols-2'>
+          <div className='mt-10 md:mt-20 md:grid md:grid-cols-2'>
             <div className='flex max-lg:mt-5 justify-center pr-20 items-center'>
               <img className='hidden md:block object-scale-down' src={Schools2}/>
             </div>
@@ -68,14 +68,14 @@ const Schools = () => {
       </div>
 
       {/* Schools 3 */}
-      <div id="schools-3">
+      <div id="schools-3" className='md:min-h-[600px]'>
         <div className='bg-white rounded-br-3xl mt-10 md:mt-20 w-[90%] md:w-3/5'>
           <h2 className='text-main md:py-2 font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ СОЗИДАЮЩАЯ – МАЛЫМ И СТУД. КБ, РАЗРАБОТЧИКАМ БАС
           </h2>
         </div>
         <div className='container'>
-          <div className='mt-10 lg:grid lg:grid-cols-2'>
+          <div className='mt-10 md:mt-20 md:grid md:grid-cols-2'>
             <div className='md:ml-20'>
               <h4 className='text-[20px] text-center'>
                 Использование АДТ на этапе созданиия ЛА и БАС
