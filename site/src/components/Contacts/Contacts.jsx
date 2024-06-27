@@ -4,7 +4,7 @@ const Contacts = () => {
   return (
     <div>
       <div className='mt-10 md:mt-20 px-5 py-1 md:py-2 bg-white w-3/4 md:w-1/2 rounded-br-3xl'>
-        <h2 className='text-main text-roboto font-semibold text-2xl md:text-[50px] text-center'>
+        <h2 className='text-main md:py-1 text-roboto font-semibold text-2xl md:text-[50px] text-center'>
           КОНТАКТЫ
         </h2>
       </div>

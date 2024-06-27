@@ -8,7 +8,7 @@ const Schools = () => {
       {/* Schools 1 */}
       <div id="schools-1">
         <div className='bg-white rounded-br-3xl w-4/5 md:w-3/5'>
-          <h2 className='text-main  font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
+          <h2 className='text-main md:py-2 font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ УЧЕБНАЯ – ШКОЛАМ, КВАНТОРИУМАМ, ЦМИТАМ
           </h2>
         </div>
@@ -40,7 +40,7 @@ const Schools = () => {
       <div id="schools-2" className='mt-10 md:mt-20 flex flex-col'>
         <div className='w-full'>
           <div className='float-right rounded-bl-3xl bg-white text-main px-10 py-1 w-4/5 md:w-3/5'>
-            <h2 className='text-roboto font-medium text-lg md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
+            <h2 className='text-roboto md:py-2 font-medium text-lg md:text-[40px]'>АДТ ИССЛЕДОВАТЕЛЬСКАЯ – ВУЗАМ, СПО</h2>
           </div>
         </div>
         <div className='container'>
@@ -70,7 +70,7 @@ const Schools = () => {
       {/* Schools 3 */}
       <div id="schools-3">
         <div className='bg-white rounded-br-3xl mt-10 md:mt-20 w-3/5'>
-          <h2 className='text-main font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
+          <h2 className='text-main md:py-2 font-medium text-lg md:text-[40px] text-roboto mx-5 md:mx-20 py-1'>
             АДТ СОЗИДАЮЩАЯ – МАЛЫМ И СТУД. КБ, РАЗРАБОТЧИКАМ БАС
           </h2>
         </div>
