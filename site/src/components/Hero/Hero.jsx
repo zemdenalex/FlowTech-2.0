@@ -3,8 +3,8 @@ import ADT from '/assets/ADT.png'
 const Hero = () => {
   return (
     <div className='w-full text-white pt-5 pb-10 bg-gradient-to-br from-gd0 via-gd40 via-40% via-gd70 via-70% to-gd100 '>
-      <div className='container'>
-        <h1 className='font-roboto lg:text-[70px] max-w-[]'>АЭРОДИНАМИЧЕСКАЯ ТРУБА FLOWTECH</h1>
+      <div className='container max-md:flex max-md:flex-col max-md:justify-center'>
+        <h1 className='font-roboto lg:text-[70px]'>АЭРОДИНАМИЧЕСКАЯ ТРУБА FLOWTECH</h1>
         <div className='lg:grid grid-cols-2'>
           <div>
             <ol className='list-disc font-openSans lg:text-[25px] italic font-thin my-5'>
@@ -25,15 +25,15 @@ const Hero = () => {
           <div className='flex justify-center my-3'>
             <h3 className=''>Выберите свою категорию:</h3>
           </div>
-          <div className='flex flex-col lg:h-auto h-[300px] justify-between lg:flex-row lg:justify-around px-3 mb-3 text-black'>
+          <div className='flex max-md:flex-col max-md:items-center lg:h-auto lg:flex-row lg:justify-around px-3 mb-3 text-black'>
             <a href='#schools-1'>  
-              <button className='bg-white rounded-2xl text-wrap px-3 text-center lg:w-[250px] h-[70px]'>Школы, кванториумы, ЦМИТы</button>
+              <button className='bg-white max-md:h-[50px] max-md:rounded-xl max-md:text-xs max-md:w-[200px] md:rounded-2xl text-wrap px-3 text-center lg:w-[250px] md:h-[70px]'>Школы, кванториумы, ЦМИТы</button>
             </a>
             <a href='#schools-2'>
-              <button className='bg-white rounded-2xl text-wrap px-3 text-center lg:w-[250px] h-[70px]'>ВУЗы, СПО</button>
+              <button className='bg-white max-md:h-[50px] max-md:rounded-xl max-md:text-xs max-md:mt-3 max-md:w-[200px] md:rounded-2xl text-wrap px-3 text-center lg:w-[250px] md:h-[70px]'>ВУЗы, СПО</button>
             </a>
             <a href='#schools-3'>
-              <button className='bg-white rounded-2xl text-wrap px-3 text-center lg:w-[250px] h-[70px]'>Малые КБ, разработчики БАС</button>
+              <button className='bg-white max-md:h-[50px] max-md:rounded-xl max-md:text-xs max-md:mt-3 max-md:w-[200px] md:rounded-2xl text-wrap px-3 text-center lg:w-[250px] md:h-[70px]'>Малые КБ, разработчики БАС</button>
             </a>
           </div>
         </div>
