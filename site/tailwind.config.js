@@ -27,7 +27,8 @@ export default {
         gd100: "#765BAB",
       },
       fontFamily: {
-        roboto: ["roboto", "sans-serif"],
+        sans: ["Roboto", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
         openSans: ["open-sans", "sans-serif"],
       }
     },

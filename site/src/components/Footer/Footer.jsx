@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full py-2 bg-secondary mt-20 flex justify-center'>
-      <p className='text-xs'>FlowTech 2024</p>
+    <div className='w-full py-2 bg-secondary flex justify-center'>
+      <p className='max-md:text-xs md:text-lg'>FlowTech 2024</p>
     </div>
   )
 }
