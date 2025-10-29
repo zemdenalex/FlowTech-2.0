@@ -1,5 +1,6 @@
 import React from 'react'
 import fasie from '/assets/fasie.png'
+
 const Contacts = () => {
   return (
     <div>
@@ -8,19 +9,29 @@ const Contacts = () => {
           КОНТАКТЫ
         </h2>
       </div>
-      <div className='container max-md:my-10 md:my-20 flex max-md:flex-col max-md:items-center h-auto flex-row justify-around'>
-        <div className='max-md:px-5 md:px-20 rounded-[30px] py-5 md:py-10 bg-gradient-to-br from-gd0 via-gd40 to-gd70 '>
+      <div className='container max-md:my-10 md:my-20 flex max-md:flex-col max-md:items-center flex-row justify-around gap-5'>
+        {/* Contact Info Block */}
+        <div className='flex-1 max-md:px-5 md:px-20 rounded-[30px] py-5 md:py-10 bg-gradient-to-br from-gd0 via-gd40 to-gd70 flex items-center justify-center'>
           <p className='text-white max-md:text-xs md:text-[25px] font-regular font-roboto'>
             Тел: +7 (926) 545-73-91<br/>
             E-mail: FlowTechADT@yandex.ru<br/>
             Контактное лицо: Усачев Никита
           </p>
         </div>
-        <div className='p-5'>
-          <p className='text-white max-md:text-xs md:text-[25px] max-md:pt-5 max-md:text-center font-regular font-roboto'>
-            При поддержке <b>ФСИ</b>
-            <img className='p-5 object-contain' src={fasie}/>
-          </p>
+        
+        {/* Text & Image Block */}
+        <div className='flex-1 rounded-[30px] overflow-hidden flex flex-col bg-gradient-to-br from-gd0 via-gd40 to-gd70'>
+          {/* Text Section */}
+          <div className='flex-1 p-5 flex items-center justify-center'>
+            <p className='text-white max-md:text-[14px] md:text-[18px] font-regular font-roboto text-justify'>
+              Проект создан при поддержке Федерального государственного бюджетного учреждения "Фонд содействия развитию малых форм предприятий в научно-технической сфере в рамках программы "Студенческий стартап" федерального проекта "Платформа университетского технологического предпринимательства".
+            </p>
+          </div>
+          
+          {/* Image Section */}
+          <div className='flex-1 p-5 flex items-center justify-center'>
+            <img className='object-contain h-full w-full' src={fasie} alt="FASIE Logo"/>
+          </div>
         </div>
       </div>
     </div>
