@@ -1,0 +1,15 @@
+{
+  "title": "[ZH] FLOWTECH 空气动力学风洞",
+  "features": {
+    "1": "[ZH] 空气动力学研究",
+    "2": "[ZH] 进行空气动力学实验",
+    "3": "[ZH] 测试飞行器和建筑物的空气动力学模型",
+    "4": "[ZH] 科普活动"
+  },
+  "categoryPrompt": "[ZH] 选择您的类别：",
+  "categories": {
+    "schools": "[ZH] 学校、量子中心",
+    "universities": "[ZH] 大学、学院",
+    "developers": "[ZH] 设计局、无人机开发商"
+  }
+}

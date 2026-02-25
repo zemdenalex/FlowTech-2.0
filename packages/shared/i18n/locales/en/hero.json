@@ -1,0 +1,15 @@
+{
+  "title": "FLOWTECH AERODYNAMIC WIND TUNNEL",
+  "features": {
+    "1": "[EN] Study of aerodynamics",
+    "2": "[EN] Conducting aerodynamic experiments",
+    "3": "[EN] Testing aerodynamic training models of aircraft and architectural objects",
+    "4": "[EN] Conducting popular science shows"
+  },
+  "categoryPrompt": "Choose your category:",
+  "categories": {
+    "schools": "Schools, Quantoriums, Innovation Centers",
+    "universities": "Universities, Colleges",
+    "developers": "Small Design Bureaus, UAS Developers"
+  }
+}

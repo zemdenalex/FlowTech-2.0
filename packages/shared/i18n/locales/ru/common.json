@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "about": "О нас",
+    "product": "Продукт",
+    "schools": "Образование",
+    "news": "Новости",
+    "contacts": "Контакты"
+  },
+  "footer": {
+    "rights": "Все права защищены."
+  },
+  "buttons": {
+    "learnMore": "Подробнее",
+    "submit": "Отправить",
+    "sendRequest": "Отправить заявку"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English",
+    "zh": "中文"
+  }
+}

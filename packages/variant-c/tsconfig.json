@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./dist",
+    "paths": {
+      "@shared/*": ["../shared/*"],
+      "@flowtech/shared/*": ["../shared/*"],
+      "@flowtech/shared": ["../shared/index.ts"]
+    }
+  },
+  "include": ["src", "../shared"],
+  "references": [{ "path": "../shared" }]
+}

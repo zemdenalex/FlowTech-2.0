@@ -1,0 +1,35 @@
+{
+  "name": "flowtech-monorepo",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:a": "pnpm --filter variant-a dev",
+    "dev:b": "pnpm --filter variant-b dev",
+    "dev:c": "pnpm --filter variant-c dev",
+    "build:a": "pnpm --filter variant-a build",
+    "build:b": "pnpm --filter variant-b build",
+    "build:c": "pnpm --filter variant-c build",
+    "build:all": "pnpm -r --filter './packages/variant-*' build",
+    "lint": "pnpm -r lint",
+    "preview:a": "pnpm --filter variant-a preview",
+    "preview:b": "pnpm --filter variant-b preview",
+    "preview:c": "pnpm --filter variant-c preview",
+    "typecheck": "pnpm -r typecheck",
+    "site:dev": "cd site && npm run dev",
+    "site:build": "cd site && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  }
+}

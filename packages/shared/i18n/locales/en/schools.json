@@ -1,0 +1,40 @@
+{
+  "educational": {
+    "title": "[EN] EDUCATIONAL WIND TUNNEL - FOR SCHOOLS, QUANTORIUMS",
+    "subtitle": "[EN] Using the wind tunnel in schools",
+    "features": {
+      "1": "[EN] 68 academic hours",
+      "2": "[EN] Designed specifically for educational institutions",
+      "3": "[EN] Consists of computational experiments, aerodynamics study and physics laws",
+      "4": "[EN] The program includes a set of aerodynamic models",
+      "5": "[EN] Suitable for vocational schools and additional education",
+      "6": "[EN] A number of solutions have been tested"
+    }
+  },
+  "research": {
+    "title": "[EN] RESEARCH WIND TUNNEL - FOR UNIVERSITIES",
+    "subtitle": "[EN] Using the wind tunnel in universities",
+    "capabilities": "Capabilities:",
+    "features": {
+      "1": "[EN] Use for laboratory work",
+      "2": "[EN] Theory verification"
+    },
+    "specifics": "Features:",
+    "specificsFeatures": {
+      "1": "[EN] High precision",
+      "2": "[EN] Patented invention"
+    }
+  },
+  "development": {
+    "title": "[EN] CREATIVE WIND TUNNEL - FOR DESIGN BUREAUS, UAS DEVELOPERS",
+    "subtitle": "[EN] Using the wind tunnel in aircraft and UAS development",
+    "features": {
+      "1": "[EN] Engaging students in practical tasks from employer enterprises",
+      "2": "[EN] Increasing non-budgetary income",
+      "3": "[EN] Testing hypotheses and proving theories",
+      "4": "[EN] Reducing aircraft development time",
+      "5": "[EN] Reducing development costs",
+      "6": "[EN] Practical classes and career guidance"
+    }
+  }
+}

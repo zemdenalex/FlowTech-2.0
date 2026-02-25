@@ -1,0 +1,25 @@
+{
+  "name": "@flowtech/shared",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./i18n": "./i18n/index.ts",
+    "./theme": "./theme/index.tsx",
+    "./theme/tokens.css": "./theme/tokens.css",
+    "./theme/tailwind-preset": "./theme/tailwind-preset.ts",
+    "./assets/fonts.css": "./assets/fonts.css",
+    "./components": "./components/index.ts"
+  },
+  "dependencies": {
+    "i18next": "^23.11.5",
+    "react-i18next": "^14.1.2",
+    "i18next-browser-languagedetector": "^8.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

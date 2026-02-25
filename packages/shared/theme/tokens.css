@@ -1,0 +1,40 @@
+:root {
+  /* Surface colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F5F5F7;
+  --color-bg-accent: #252352;
+
+  /* Text colors */
+  --color-text-primary: #1B1A28;
+  --color-text-secondary: #4A4A6A;
+  --color-text-inverse: #FFFFFF;
+  --color-text-muted: #8888AA;
+
+  /* Brand colors (constant across themes) */
+  --color-brand-main: #1B1A28;
+  --color-brand-secondary: #252352;
+  --color-brand-border: #765BAB;
+  --color-brand-purple: #534FB8;
+
+  /* Gradient stops */
+  --color-gd-0: #040319;
+  --color-gd-40: #252352;
+  --color-gd-70: #534FB8;
+  --color-gd-100: #765BAB;
+
+  /* Separator */
+  --color-separator: #E5E5EA;
+}
+
+.dark {
+  --color-bg-primary: #1B1A28;
+  --color-bg-secondary: #252352;
+  --color-bg-accent: #534FB8;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #C8C8E0;
+  --color-text-inverse: #1B1A28;
+  --color-text-muted: #8888AA;
+
+  --color-separator: #3A3A5C;
+}

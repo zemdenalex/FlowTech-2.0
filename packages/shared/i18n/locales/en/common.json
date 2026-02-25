@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "about": "About",
+    "product": "Product",
+    "schools": "Education",
+    "news": "News",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "submit": "Submit",
+    "sendRequest": "Send Request"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English",
+    "zh": "中文"
+  }
+}

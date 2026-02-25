@@ -1,0 +1,12 @@
+{
+  "title": "CONTACTS",
+  "phone": "+7 (926) 545-73-91",
+  "email": "FlowTechADT@yandex.ru",
+  "contactPerson": "Nikita Usachev",
+  "labels": {
+    "phone": "Phone",
+    "email": "E-mail",
+    "contactPerson": "Contact person"
+  },
+  "fasie": "[EN] The project was created with the support of the Foundation for Assistance to Small Innovative Enterprises under the Student Startup program."
+}
