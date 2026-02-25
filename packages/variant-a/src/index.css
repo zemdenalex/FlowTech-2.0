@@ -10,3 +10,8 @@
     font-family: 'Roboto', sans-serif;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5rem;
+}

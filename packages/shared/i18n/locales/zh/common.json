@@ -1,22 +1,27 @@
 {
   "nav": {
-    "about": "[ZH] 关于我们",
-    "product": "[ZH] 产品",
-    "schools": "[ZH] 教育",
-    "news": "[ZH] 新闻",
-    "contacts": "[ZH] 联系方式"
+    "about": "关于我们",
+    "product": "产品",
+    "schools": "教育",
+    "news": "新闻",
+    "contacts": "联系方式"
   },
   "footer": {
-    "rights": "[ZH] 版权所有。"
+    "rights": "版权所有。"
   },
   "buttons": {
-    "learnMore": "[ZH] 了解更多",
-    "submit": "[ZH] 提交",
-    "sendRequest": "[ZH] 发送请求"
+    "learnMore": "了解更多",
+    "submit": "提交",
+    "sendRequest": "发送请求"
   },
   "language": {
     "ru": "Русский",
     "en": "English",
     "zh": "中文"
+  },
+  "stats": {
+    "hours": "68+ 学时",
+    "specialists": "到2030年培养100万专家",
+    "modifications": "3种风洞型号"
   }
 }

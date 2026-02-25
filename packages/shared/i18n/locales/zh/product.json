@@ -1,7 +1,36 @@
 {
-  "title": "[ZH] 产品",
-  "description": "[ZH] 产品描述",
+  "title": "产品",
+  "subtitle": "FlowTech 空气动力学风洞",
+  "description": "FlowTech空气动力学风洞是面向教育和研究机构的现代技术解决方案。我们的风洞可以进行从教学到专业研究的各种空气动力学实验。",
   "specs": {
-    "title": "[ZH] 技术规格"
+    "title": "技术规格",
+    "workingSection": {
+      "label": "工作截面",
+      "value": "300×300 毫米"
+    },
+    "speed": {
+      "label": "气流速度",
+      "value": "最高 50 米/秒"
+    },
+    "precision": {
+      "label": "测量精度",
+      "value": "±0.5%"
+    },
+    "power": {
+      "label": "功率",
+      "value": "2.2 千瓦"
+    },
+    "weight": {
+      "label": "重量",
+      "value": "150 公斤"
+    },
+    "dimensions": {
+      "label": "尺寸",
+      "value": "2500×800×1200 毫米"
+    }
+  },
+  "courses": {
+    "title": "教育课程",
+    "description": "每台风洞配有完整的教学材料和适合各级教育的课程。"
   }
 }

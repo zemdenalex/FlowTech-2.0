@@ -1,5 +1,23 @@
 {
-  "title": "[ZH] 项目新闻",
-  "readMore": "[ZH] 阅读更多",
-  "noNews": "[ZH] 暂无新闻"
+  "title": "项目新闻",
+  "readMore": "阅读更多",
+  "noNews": "暂无新闻",
+  "items": {
+    "n1": {
+      "title": "FlowTech推出新型教学风洞",
+      "summary": "FlowTech发布了面向教育机构的最新版空气动力学风洞，配备了更多模型套件。"
+    },
+    "n2": {
+      "title": "与俄罗斯顶尖大学建立合作",
+      "summary": "FlowTech与多所技术大学签署了合作协议，将风洞纳入教学课程。"
+    },
+    "n3": {
+      "title": "参加「未来技术」展览",
+      "summary": "FlowTech团队在国际创新技术展览会上展示了风洞的功能。"
+    },
+    "n4": {
+      "title": "获得FASIE基金支持",
+      "summary": "FlowTech项目在「学生创业」计划下获得了资助支持，用于进一步发展。"
+    }
+  }
 }

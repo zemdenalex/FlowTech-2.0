@@ -16,17 +16,19 @@
     "preview:b": "pnpm --filter variant-b preview",
     "preview:c": "pnpm --filter variant-c preview",
     "typecheck": "pnpm -r typecheck",
+    "dev:all": "concurrently -n A,B,C -c blue,green,magenta \"pnpm dev:a\" \"pnpm dev:b\" \"pnpm dev:c\"",
     "site:dev": "cd site && npm run dev",
     "site:build": "cd site && npm run build"
   },
   "devDependencies": {
-    "typescript": "^5.4.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "concurrently": "^9.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "@typescript-eslint/parser": "^7.0.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.0"
+    "typescript": "^5.4.0"
   },
   "engines": {
     "node": ">=18",

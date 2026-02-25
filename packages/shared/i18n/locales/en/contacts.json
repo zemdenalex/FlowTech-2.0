@@ -8,5 +8,14 @@
     "email": "E-mail",
     "contactPerson": "Contact person"
   },
-  "fasie": "[EN] The project was created with the support of the Foundation for Assistance to Small Innovative Enterprises under the Student Startup program."
+  "fasie": "The project was created with the support of the Foundation for Assistance to Small Innovative Enterprises under the Student Startup program.",
+  "form": {
+    "name": "Your name",
+    "email": "E-mail",
+    "organization": "Organization",
+    "message": "Message",
+    "submit": "Send Request",
+    "success": "Request sent! We will contact you shortly.",
+    "error": "Sending error. Please try again later."
+  }
 }

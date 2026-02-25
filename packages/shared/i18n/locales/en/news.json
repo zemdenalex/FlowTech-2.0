@@ -1,5 +1,23 @@
 {
   "title": "Project News",
   "readMore": "Read More",
-  "noNews": "No news yet"
+  "noNews": "No news yet",
+  "items": {
+    "n1": {
+      "title": "FlowTech Introduces New Educational Wind Tunnel",
+      "summary": "FlowTech has presented an updated version of the aerodynamic wind tunnel for educational institutions with an expanded set of models."
+    },
+    "n2": {
+      "title": "Partnership with Leading Russian Universities",
+      "summary": "FlowTech has signed cooperation agreements with several technical universities to integrate wind tunnels into the curriculum."
+    },
+    "n3": {
+      "title": "Participation in 'Technologies of the Future' Exhibition",
+      "summary": "The FlowTech team demonstrated the capabilities of the wind tunnel at an international exhibition of innovative technologies."
+    },
+    "n4": {
+      "title": "FASIE Foundation Support Received",
+      "summary": "The FlowTech project received grant support under the Student Startup program for further development."
+    }
+  }
 }

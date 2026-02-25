@@ -11,15 +11,22 @@
     "./theme/tokens.css": "./theme/tokens.css",
     "./theme/tailwind-preset": "./theme/tailwind-preset.ts",
     "./assets/fonts.css": "./assets/fonts.css",
-    "./components": "./components/index.ts"
+    "./components": "./components/index.ts",
+    "./data/news": "./data/news.ts",
+    "./hooks": "./hooks/index.ts"
   },
   "dependencies": {
     "i18next": "^23.11.5",
-    "react-i18next": "^14.1.2",
-    "i18next-browser-languagedetector": "^8.0.0"
+    "i18next-browser-languagedetector": "^8.0.0",
+    "react-i18next": "^14.1.2"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "tailwindcss": "^3.4.19"
   }
 }

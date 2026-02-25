@@ -1,7 +1,36 @@
 {
-  "title": "Product",
-  "description": "[EN] Product description",
+  "title": "PRODUCT",
+  "subtitle": "FlowTech Aerodynamic Wind Tunnel",
+  "description": "The FlowTech aerodynamic wind tunnel is a modern technical solution for educational and research institutions. Our wind tunnel enables a wide range of aerodynamic experiments, from educational to professional research.",
   "specs": {
-    "title": "Technical Specifications"
+    "title": "Technical Specifications",
+    "workingSection": {
+      "label": "Working section",
+      "value": "300×300 mm"
+    },
+    "speed": {
+      "label": "Flow speed",
+      "value": "up to 50 m/s"
+    },
+    "precision": {
+      "label": "Measurement accuracy",
+      "value": "±0.5%"
+    },
+    "power": {
+      "label": "Power",
+      "value": "2.2 kW"
+    },
+    "weight": {
+      "label": "Weight",
+      "value": "150 kg"
+    },
+    "dimensions": {
+      "label": "Dimensions",
+      "value": "2500×800×1200 mm"
+    }
+  },
+  "courses": {
+    "title": "Educational Courses",
+    "description": "Each wind tunnel comes with a complete set of educational materials and programs for various levels of education."
   }
 }

@@ -1,12 +1,21 @@
 {
-  "title": "[ZH] 联系方式",
+  "title": "联系方式",
   "phone": "+7 (926) 545-73-91",
   "email": "FlowTechADT@yandex.ru",
-  "contactPerson": "[ZH] 尼基塔·乌萨切夫",
+  "contactPerson": "尼基塔·乌萨切夫",
   "labels": {
-    "phone": "[ZH] 电话",
-    "email": "[ZH] 电子邮件",
-    "contactPerson": "[ZH] 联系人"
+    "phone": "电话",
+    "email": "电子邮件",
+    "contactPerson": "联系人"
   },
-  "fasie": "[ZH] 该项目在科技领域中小企业发展促进基金会的支持下创建。"
+  "fasie": "该项目在科技领域中小企业发展促进基金会「学生创业」计划的支持下创建。",
+  "form": {
+    "name": "您的姓名",
+    "email": "电子邮件",
+    "organization": "组织",
+    "message": "留言",
+    "submit": "发送请求",
+    "success": "请求已发送！我们将尽快与您联系。",
+    "error": "发送失败，请稍后重试。"
+  }
 }
