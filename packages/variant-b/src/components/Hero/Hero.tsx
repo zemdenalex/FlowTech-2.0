@@ -15,19 +15,19 @@ const Hero = () => {
   ]
 
   return (
-    <section id="hero" className="py-24 md:py-32 lg:py-40">
+    <section id="hero" className="py-16 md:py-24 lg:py-40">
       <div className="max-w-4xl mx-auto px-4 text-center">
         {/* Title */}
-        <h1 className="text-5xl md:text-7xl font-thin font-roboto tracking-tight text-text-primary leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-thin font-roboto tracking-tight text-text-primary leading-tight">
           {t('title')}
         </h1>
 
         {/* Feature pills */}
-        <div className="flex flex-wrap justify-center gap-3 mt-10">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-8 md:mt-10">
           {features.map((feature, i) => (
             <span
               key={i}
-              className="px-4 py-2 text-sm font-light text-text-secondary border border-separator rounded-full"
+              className="px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-light text-text-secondary border border-separator rounded-full"
             >
               {feature}
             </span>
@@ -35,10 +35,10 @@ const Hero = () => {
         </div>
 
         {/* CTA */}
-        <div className="mt-12">
+        <div className="mt-10 md:mt-12">
           <Button
             variant="primary"
-            className="!bg-brand-purple !text-white hover:!opacity-90 px-8 py-3 text-base"
+            className="!bg-brand-purple !text-white hover:!opacity-90 px-6 sm:px-8 py-3 text-sm sm:text-base"
             onClick={() => scrollTo('contacts')}
           >
             {tCommon('buttons.sendRequest')}
@@ -46,15 +46,15 @@ const Hero = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 pt-12 border-t border-separator">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 mt-16 md:mt-20 pt-10 md:pt-12 border-t border-separator">
           <div>
-            <p className="text-3xl font-thin font-roboto text-brand-purple">{tCommon('stats.hours')}</p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-thin font-roboto text-brand-purple">{tCommon('stats.hours')}</p>
           </div>
           <div>
-            <p className="text-3xl font-thin font-roboto text-brand-purple">{tCommon('stats.specialists')}</p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-thin font-roboto text-brand-purple">{tCommon('stats.specialists')}</p>
           </div>
           <div>
-            <p className="text-3xl font-thin font-roboto text-brand-purple">{tCommon('stats.modifications')}</p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-thin font-roboto text-brand-purple">{tCommon('stats.modifications')}</p>
           </div>
         </div>
       </div>

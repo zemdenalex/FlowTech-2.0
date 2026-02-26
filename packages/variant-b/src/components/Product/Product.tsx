@@ -29,30 +29,30 @@ const Product = () => {
   ]
 
   return (
-    <section id="product" className="py-20 md:py-28">
+    <section id="product" className="py-16 md:py-28">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section title */}
-        <h2 className="text-3xl md:text-5xl font-thin font-roboto text-text-primary mb-6">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-thin font-roboto text-text-primary mb-4 md:mb-6">
           {t('title')}
         </h2>
-        <p className="text-lg font-light text-text-secondary max-w-3xl mb-16 leading-relaxed">
+        <p className="text-sm sm:text-base md:text-lg font-light text-text-secondary max-w-3xl mb-10 md:mb-16 leading-relaxed">
           {t('description')}
         </p>
 
         {/* Three cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-16 md:mb-20">
           {cards.map((card, i) => (
             <div
               key={i}
-              className="border border-separator rounded-xl p-6 hover:shadow-lg transition-shadow bg-bg-primary"
+              className="border border-separator rounded-xl p-4 md:p-6 hover:shadow-lg transition-shadow bg-bg-primary"
             >
-              <div className="w-10 h-10 rounded-lg bg-brand-purple/10 flex items-center justify-center mb-4">
-                <span className="text-brand-purple font-light text-lg">{String(i + 1).padStart(2, '0')}</span>
+              <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg bg-brand-purple/10 flex items-center justify-center mb-3 md:mb-4">
+                <span className="text-brand-purple font-light text-sm md:text-lg">{String(i + 1).padStart(2, '0')}</span>
               </div>
-              <h3 className="text-base font-medium text-text-primary mb-3 leading-snug">
+              <h3 className="text-sm md:text-base font-medium text-text-primary mb-2 md:mb-3 leading-snug">
                 {card.title}
               </h3>
-              <p className="text-sm font-light text-text-muted leading-relaxed">
+              <p className="text-xs md:text-sm font-light text-text-muted leading-relaxed">
                 {card.description}
               </p>
             </div>
@@ -61,14 +61,14 @@ const Product = () => {
 
         {/* Technical specs */}
         <div>
-          <h3 className="text-2xl font-thin font-roboto text-text-primary mb-8">
+          <h3 className="text-xl md:text-2xl font-thin font-roboto text-text-primary mb-6 md:mb-8">
             {t('specs.title')}
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {specs.map((spec, i) => (
-              <div key={i} className="py-4 border-b border-separator">
-                <p className="text-sm text-text-muted mb-1">{spec.label}</p>
-                <p className="text-lg font-light text-text-primary">{spec.value}</p>
+              <div key={i} className="py-3 md:py-4 border-b border-separator">
+                <p className="text-xs md:text-sm text-text-muted mb-1">{spec.label}</p>
+                <p className="text-sm md:text-lg font-light text-text-primary">{spec.value}</p>
               </div>
             ))}
           </div>

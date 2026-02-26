@@ -11,23 +11,20 @@ const StatsBar = () => {
   ]
 
   return (
-    <GradientBox direction="tl" className="py-12 md:py-16">
-      <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
+    <GradientBox direction="tl" className="py-10 md:py-16">
+      <div className="px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-3 gap-4 md:gap-8">
           {stats.map((stat, i) => (
             <div
               key={i}
-              className="text-center px-4"
+              className="text-center px-2 md:px-4"
             >
-              <div className="text-4xl md:text-5xl lg:text-6xl font-thin text-white mb-3 tracking-wider">
+              <div className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-thin text-white mb-1 md:mb-3 tracking-wider">
                 {stat.number}
               </div>
-              <div className="text-sm md:text-base font-light text-white/70 uppercase tracking-widest">
+              <div className="text-[9px] sm:text-xs md:text-base font-light text-white/70 uppercase tracking-wider leading-tight">
                 {stat.label}
               </div>
-              {i < stats.length - 1 && (
-                <div className="md:hidden w-16 h-px bg-white/20 mx-auto mt-8" />
-              )}
             </div>
           ))}
         </div>

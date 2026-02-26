@@ -18,14 +18,14 @@ const Schools = () => {
       case 'educational':
         return (
           <div className="space-y-6">
-            <p className="text-lg font-light text-text-secondary">
+            <p className="text-base md:text-lg font-light text-text-secondary">
               {t('educational.subtitle')}
             </p>
             <ul className="space-y-3">
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-purple mt-2.5 flex-shrink-0" />
-                  <span className="text-base font-light text-text-secondary leading-relaxed">
+                  <span className="text-sm md:text-base font-light text-text-secondary leading-relaxed">
                     {t(`educational.features.${i}`)}
                   </span>
                 </li>
@@ -37,7 +37,7 @@ const Schools = () => {
       case 'research':
         return (
           <div className="space-y-6">
-            <p className="text-lg font-light text-text-secondary">
+            <p className="text-base md:text-lg font-light text-text-secondary">
               {t('research.subtitle')}
             </p>
             <div>
@@ -48,7 +48,7 @@ const Schools = () => {
                 {[1, 2].map((i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-purple mt-2.5 flex-shrink-0" />
-                    <span className="text-base font-light text-text-secondary leading-relaxed">
+                    <span className="text-sm md:text-base font-light text-text-secondary leading-relaxed">
                       {t(`research.features.${i}`)}
                     </span>
                   </li>
@@ -63,7 +63,7 @@ const Schools = () => {
                 {[1, 2].map((i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-purple mt-2.5 flex-shrink-0" />
-                    <span className="text-base font-light text-text-secondary leading-relaxed">
+                    <span className="text-sm md:text-base font-light text-text-secondary leading-relaxed">
                       {t(`research.specificsFeatures.${i}`)}
                     </span>
                   </li>
@@ -76,14 +76,14 @@ const Schools = () => {
       case 'development':
         return (
           <div className="space-y-6">
-            <p className="text-lg font-light text-text-secondary">
+            <p className="text-base md:text-lg font-light text-text-secondary">
               {t('development.subtitle')}
             </p>
             <ul className="space-y-3">
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-purple mt-2.5 flex-shrink-0" />
-                  <span className="text-base font-light text-text-secondary leading-relaxed">
+                  <span className="text-sm md:text-base font-light text-text-secondary leading-relaxed">
                     {t(`development.features.${i}`)}
                   </span>
                 </li>
@@ -95,16 +95,16 @@ const Schools = () => {
   }
 
   return (
-    <section id="schools" className="py-20 md:py-28 bg-bg-secondary">
+    <section id="schools" className="py-16 md:py-28 bg-bg-secondary">
       <div className="max-w-6xl mx-auto px-4">
         {/* Tab navigation */}
-        <div className="border-b border-separator mb-12">
-          <div className="flex gap-8 overflow-x-auto">
+        <div className="border-b border-separator mb-8 md:mb-12">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 overflow-x-auto pb-1">
             {tabs.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
-                className={`pb-4 text-sm whitespace-nowrap transition-colors ${
+                className={`pb-3 sm:pb-4 text-xs sm:text-sm text-left sm:text-center transition-colors ${
                   activeTab === tab.key
                     ? 'border-b-2 border-brand-purple text-text-primary font-medium'
                     : 'text-text-muted hover:text-text-secondary'
@@ -117,7 +117,7 @@ const Schools = () => {
         </div>
 
         {/* Tab content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div>{renderTabContent(activeTab)}</div>
 
           {/* Image */}
