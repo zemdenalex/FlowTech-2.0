@@ -1,0 +1,39 @@
+{
+  "title": "UAS Laboratory",
+  "preview": {
+    "teaser": "Comprehensive UAS laboratory equipment for educational institutions. Compliant with national project requirements."
+  },
+  "subtitle": "Comprehensive equipment for unmanned aerial systems laboratories",
+  "intro": "Establishing a UAS laboratory at an educational institution opens opportunities for in-depth practical training of specialists in UAS development, production and operation, and significantly increases chances of successful participation in open selection of providers and educational programs.",
+  "goals": {
+    "title": "Key Goals of the UAS Laboratory",
+    "items": {
+      "1": "Developing human capital in the aviation industry",
+      "2": "Expanding the range and accessibility of research in the priority area of 'Intelligent transport and telecommunications systems, including autonomous vehicles'",
+      "3": "Creating promising results of scientific, technical and innovative activities in areas demanded by the UAS market",
+      "4": "Improving the effectiveness of natural science and technology educational programs"
+    }
+  },
+  "regulation": {
+    "title": "Regulatory Framework",
+    "intro": "Establishing and operating UAS laboratories in educational organizations contributes to:",
+    "items": {
+      "1": "Critical technology 'Transport technologies for various applications, including unmanned and autonomous systems' (Presidential Decree No. 529, June 18, 2024)",
+      "2": "National goals 'Technological Leadership' and 'Realizing Every Person's Potential' (Presidential Decree No. 309, May 7, 2024)",
+      "3": "NTI roadmaps 'Aeronet' and 'Circle Movement' (Government Decree No. 317, April 18, 2016)"
+    }
+  },
+  "equipment": {
+    "title": "Laboratory Composition",
+    "intro": "The technical core of the laboratory is the patent-protected compact FlowTech wind tunnel.",
+    "items": {
+      "1": "FlowTech aerodynamic wind tunnel",
+      "2": "Set of educational aircraft models",
+      "3": "Flow visualization module (smoke machine + laser knife)",
+      "4": "Specialized data processing software",
+      "5": "Educational materials (68+ academic hours)",
+      "6": "Teacher professional development program"
+    }
+  },
+  "credentials": "Our competencies are confirmed by our NTI Fund portfolio company status and winning the Drone Garage technology solutions competition at Archipelago 2025."
+}

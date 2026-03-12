@@ -1,0 +1,36 @@
+{
+  "title": "Procurement (44-FZ / 223-FZ)",
+  "preview": {
+    "teaser": "Comprehensive solutions for educational institutions. Complete documentation package, 44-FZ and 223-FZ compliance."
+  },
+  "subtitle": "Supply of aerodynamic equipment for government and municipal needs",
+  "description": "Engineer of Atmosphere LLC is a registered supplier on electronic trading platforms. We provide a complete documentation package for procurement under 44-FZ and 223-FZ.",
+  "features": {
+    "1": {
+      "title": "Complete Documentation",
+      "description": "Technical specification, certificates of conformity, warranty obligations"
+    },
+    "2": {
+      "title": "44-FZ and 223-FZ Compliance",
+      "description": "Participation in electronic auctions, quotation requests and tenders"
+    },
+    "3": {
+      "title": "Flexible Delivery Terms",
+      "description": "Delivery, installation, commissioning and staff training on customer premises"
+    },
+    "4": {
+      "title": "Warranty and Service",
+      "description": "Warranty service, technical support and spare parts supply"
+    }
+  },
+  "process": {
+    "title": "How It Works",
+    "steps": {
+      "1": "Send a request for a commercial proposal",
+      "2": "Receive a quote with full specification and pricing",
+      "3": "Place procurement on the electronic trading platform",
+      "4": "Sign the contract and receive equipment"
+    }
+  },
+  "cta": "Request a commercial proposal"
+}

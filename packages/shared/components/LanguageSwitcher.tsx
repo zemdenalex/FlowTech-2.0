@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { LANGUAGES, type Language } from '../i18n/index'
 
-const LANG_LABELS: Record<Language, string> = { ru: 'RU', en: 'EN', zh: '中文' }
+const LANG_LABELS: Record<Language, string> = { ru: 'RU', en: 'EN' }
 
 interface LanguageSwitcherProps {
   className?: string

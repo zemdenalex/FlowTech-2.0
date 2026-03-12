@@ -9,6 +9,10 @@ import ruProduct from './locales/ru/product.json'
 import ruSchools from './locales/ru/schools.json'
 import ruNews from './locales/ru/news.json'
 import ruContacts from './locales/ru/contacts.json'
+import ruEducation from './locales/ru/education.json'
+import ruDevelopers from './locales/ru/developers.json'
+import ruLaboratory from './locales/ru/laboratory.json'
+import ruProcurement from './locales/ru/procurement.json'
 
 import enCommon from './locales/en/common.json'
 import enHero from './locales/en/hero.json'
@@ -17,28 +21,23 @@ import enProduct from './locales/en/product.json'
 import enSchools from './locales/en/schools.json'
 import enNews from './locales/en/news.json'
 import enContacts from './locales/en/contacts.json'
+import enEducation from './locales/en/education.json'
+import enDevelopers from './locales/en/developers.json'
+import enLaboratory from './locales/en/laboratory.json'
+import enProcurement from './locales/en/procurement.json'
 
-import zhCommon from './locales/zh/common.json'
-import zhHero from './locales/zh/hero.json'
-import zhAbout from './locales/zh/about.json'
-import zhProduct from './locales/zh/product.json'
-import zhSchools from './locales/zh/schools.json'
-import zhNews from './locales/zh/news.json'
-import zhContacts from './locales/zh/contacts.json'
-
-export const LANGUAGES = ['ru', 'en', 'zh'] as const
+export const LANGUAGES = ['ru', 'en'] as const
 export type Language = (typeof LANGUAGES)[number]
 export const DEFAULT_LANGUAGE: Language = 'ru'
-export const NAMESPACES = ['common', 'hero', 'about', 'product', 'schools', 'news', 'contacts'] as const
+export const NAMESPACES = ['common', 'hero', 'about', 'product', 'schools', 'news', 'contacts', 'education', 'developers', 'laboratory', 'procurement'] as const
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
-      ru: { common: ruCommon, hero: ruHero, about: ruAbout, product: ruProduct, schools: ruSchools, news: ruNews, contacts: ruContacts },
-      en: { common: enCommon, hero: enHero, about: enAbout, product: enProduct, schools: enSchools, news: enNews, contacts: enContacts },
-      zh: { common: zhCommon, hero: zhHero, about: zhAbout, product: zhProduct, schools: zhSchools, news: zhNews, contacts: zhContacts },
+      ru: { common: ruCommon, hero: ruHero, about: ruAbout, product: ruProduct, schools: ruSchools, news: ruNews, contacts: ruContacts, education: ruEducation, developers: ruDevelopers, laboratory: ruLaboratory, procurement: ruProcurement },
+      en: { common: enCommon, hero: enHero, about: enAbout, product: enProduct, schools: enSchools, news: enNews, contacts: enContacts, education: enEducation, developers: enDevelopers, laboratory: enLaboratory, procurement: enProcurement },
     },
     fallbackLng: DEFAULT_LANGUAGE,
     defaultNS: 'common',

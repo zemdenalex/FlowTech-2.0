@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@shared/*": ["../shared/*"],
+      "@flowtech/shared/*": ["../shared/*"],
+      "@flowtech/shared": ["../shared/index.ts"]
+    }
+  },
+  "include": ["src", "../shared"]
+}

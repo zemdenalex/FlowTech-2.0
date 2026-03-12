@@ -1,0 +1,109 @@
+@import '@flowtech/shared/assets/fonts.css';
+@import '@flowtech/shared/theme/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0;
+    scrollbar-width: none; /* Firefox */
+  }
+  html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+}
+
+/* C1 "Refined" — light mode overrides */
+:root {
+  --color-bg-primary: #EEEDF4;
+  --color-bg-secondary: #E8E7F0;
+  --color-bg-accent: #DEDCE8;
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #3A3A5A;
+  --color-text-muted: #6A6A8A;
+  --color-brand-purple: #5B57C8;
+  --color-separator: #CDCDD8;
+  /* Gradient stops — light purple in light mode */
+  --color-gd-0: #E4E0F0;
+  --color-gd-40: #D8D2EA;
+  --color-gd-70: #C4BCDE;
+  --color-gd-100: #B4ACD6;
+  /* Gradient section text colors */
+  --color-gd-text: #1A1A2E;
+  --color-gd-text-muted: #3A3A5A;
+  --color-gd-text-subtle: rgba(26,26,46,0.5);
+  --color-gd-text-border: rgba(26,26,46,0.2);
+  --color-gd-text-overlay: rgba(26,26,46,0.08);
+  /* Flow animation */
+  --color-flow-stroke: rgba(90, 80, 180, 0.20);
+}
+
+/* C1 "Refined" — dark mode overrides */
+.dark {
+  --color-bg-primary: #0E0D1A;
+  --color-bg-secondary: #161432;
+  --color-bg-accent: #342F80;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #D4D4EE;
+  --color-text-muted: #A0A0C0;
+  --color-brand-purple: #7B77E0;
+  --color-separator: #28284A;
+  /* Gradient stops — deeper dark in dark mode */
+  --color-gd-0: #060518;
+  --color-gd-40: #161432;
+  --color-gd-70: #302C78;
+  --color-gd-100: #4A4098;
+  /* Gradient section text colors */
+  --color-gd-text: #FFFFFF;
+  --color-gd-text-muted: rgba(255,255,255,0.7);
+  --color-gd-text-subtle: rgba(255,255,255,0.5);
+  --color-gd-text-border: rgba(255,255,255,0.2);
+  --color-gd-text-overlay: rgba(255,255,255,0.08);
+  /* Flow animation */
+  --color-flow-stroke: rgba(120, 110, 220, 0.18);
+}
+
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.animate-bounce-down {
+  animation: bounce-down 2s ease-in-out infinite;
+}
+
+/* Flow animation keyframes — slow, gentle movement */
+@keyframes flow-dash {
+  0% { stroke-dashoffset: 2000; }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes flow-dash-reverse {
+  0% { stroke-dashoffset: -2000; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.flow-line {
+  stroke-dasharray: 800 600;
+  animation: flow-dash 20s linear infinite;
+}
+
+.flow-line-reverse {
+  stroke-dasharray: 700 700;
+  animation: flow-dash-reverse 25s linear infinite;
+}
+
+.flow-line-slow {
+  stroke-dasharray: 900 500;
+  animation: flow-dash 30s linear infinite;
+}
+
+.flow-line-fast {
+  stroke-dasharray: 600 800;
+  animation: flow-dash 16s linear infinite;
+}

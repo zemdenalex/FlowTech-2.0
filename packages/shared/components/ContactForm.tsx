@@ -10,11 +10,41 @@ interface ContactFormProps {
 const ContactForm = ({ className = '', inputClassName = '', buttonClassName = '' }: ContactFormProps) => {
   const { t } = useTranslation('contacts')
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
+    setError('')
+    setSending(true)
+
+    const form = e.target as HTMLFormElement
+    const data = {
+      name: (form.elements.namedItem('name') as HTMLInputElement).value,
+      email: (form.elements.namedItem('email') as HTMLInputElement).value,
+      organization: (form.elements.namedItem('organization') as HTMLInputElement).value,
+      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+    }
+
+    try {
+      const res = await fetch('/api/contact.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+
+      if (res.ok) {
+        setSubmitted(true)
+        setTimeout(() => setSubmitted(false), 5000)
+      } else {
+        const body = await res.json().catch(() => null)
+        setError(body?.error || t('form.error'))
+      }
+    } catch {
+      setError(t('form.error'))
+    } finally {
+      setSending(false)
+    }
   }
 
   if (submitted) {
@@ -55,8 +85,11 @@ const ContactForm = ({ className = '', inputClassName = '', buttonClassName = ''
           required
           className={inputClassName}
         />
-        <button type="submit" className={buttonClassName}>
-          {t('form.submit')}
+        {error && (
+          <p className="text-red-500 text-sm">{error}</p>
+        )}
+        <button type="submit" disabled={sending} className={buttonClassName}>
+          {sending ? '...' : t('form.submit')}
         </button>
       </div>
     </form>

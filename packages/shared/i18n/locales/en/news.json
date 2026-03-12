@@ -1,23 +1,39 @@
 {
   "title": "Project News",
-  "readMore": "Read More",
+  "readMore": "Read more",
   "noNews": "No news yet",
   "items": {
     "n1": {
-      "title": "FlowTech Introduces New Educational Wind Tunnel",
-      "summary": "FlowTech has presented an updated version of the aerodynamic wind tunnel for educational institutions with an expanded set of models."
+      "title": "FlowTech in TOP-1000 University Startups",
+      "summary": "FlowTech wind tunnel ranked #65 in the TOP-1000 university startups rating. The Tiamat unmanned vessel also entered the TOP-250 best startups nationwide."
     },
     "n2": {
-      "title": "Partnership with Leading Russian Universities",
-      "summary": "FlowTech has signed cooperation agreements with several technical universities to integrate wind tunnels into the curriculum."
+      "title": "Moscow Innovator 2025 Grant",
+      "summary": "Engineer of Atmosphere LLC received a grant from the Moscow Mayor's 'Innovator of Moscow 2025' competition with the Tiamat project in the 'Ecology and Environmental Protection' category."
     },
     "n3": {
-      "title": "Participation in 'Technologies of the Future' Exhibition",
-      "summary": "The FlowTech team demonstrated the capabilities of the wind tunnel at an international exhibition of innovative technologies."
+      "title": "FlowTech at Moscow Startup Summit 2025",
+      "summary": "The first international summit by Sber and the Moscow Government gathered over 5,000 participants from 40 countries. FlowTech presented at the Youth Startups Demo Day."
     },
     "n4": {
-      "title": "FASIE Foundation Support Received",
-      "summary": "The FlowTech project received grant support under the Student Startup program for further development."
+      "title": "National Award 'People Change the Country'",
+      "summary": "The CEO of Engineer of Atmosphere LLC became a laureate of the First National Award 'People Change the Country'. The ceremony took place at Zaryadye Concert Hall."
+    },
+    "n5": {
+      "title": "Grand Prize at Archipelago 2025",
+      "summary": "FlowTech team won the grand prize at the 'Archipelago 2025' project-educational intensive — Russia's largest platform for technology startups."
+    },
+    "n6": {
+      "title": "Flow Technologies Competition",
+      "summary": "FlowTech and University 2035 co-organized the 'Flow Technologies' competition — an aerodynamic design contest for students and young engineers."
+    },
+    "n7": {
+      "title": "FlowTech — NTI Fund Portfolio Company",
+      "summary": "Engineer of Atmosphere LLC joined the NTI Project Support Fund portfolio, confirming the project's high technological potential."
+    },
+    "n8": {
+      "title": "Partnership with University 2035",
+      "summary": "FlowTech and University 2035 signed a cooperation agreement on developing educational programs for unmanned aviation."
     }
   }
 }

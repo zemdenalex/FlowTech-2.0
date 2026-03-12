@@ -1,36 +1,70 @@
 {
-  "title": "PRODUCT",
+  "title": "Product",
+  "preview": {
+    "teaser": "Closed-circuit wind tunnel with enclosed working section. Speed up to 35 m/s, working section 200×200×500 mm, IP67 protection."
+  },
   "subtitle": "FlowTech Aerodynamic Wind Tunnel",
-  "description": "The FlowTech aerodynamic wind tunnel is a modern technical solution for educational and research institutions. Our wind tunnel enables a wide range of aerodynamic experiments, from educational to professional research.",
+  "pricing": "Price upon request — depends on configuration",
+  "description": "FlowTech is a closed-circuit wind tunnel with an enclosed working section for educational and research purposes. It measures and calculates all key aerodynamic characteristics. Specialized software automates data processing: instantly displays experiment results, builds clear dependency graphs, and generates reports.",
   "specs": {
     "title": "Technical Specifications",
     "workingSection": {
       "label": "Working section",
-      "value": "300×300 mm"
+      "value": "200×200×500 mm"
     },
     "speed": {
       "label": "Flow speed",
-      "value": "up to 50 m/s"
+      "value": "up to 35 m/s"
     },
-    "precision": {
-      "label": "Measurement accuracy",
-      "value": "±0.5%"
+    "anglesAttack": {
+      "label": "Angle of attack",
+      "value": "from −25° to +25°"
+    },
+    "anglesSlip": {
+      "label": "Sideslip angle",
+      "value": "from −6° to +6°"
     },
     "power": {
-      "label": "Power",
-      "value": "2.2 kW"
+      "label": "Power consumption",
+      "value": "up to 2 kW"
     },
-    "weight": {
-      "label": "Weight",
-      "value": "150 kg"
+    "powerSupply": {
+      "label": "Power supply",
+      "value": "220 V AC mains"
     },
     "dimensions": {
       "label": "Dimensions",
-      "value": "2500×800×1200 mm"
+      "value": "2140×730×1300 mm"
+    },
+    "protection": {
+      "label": "Protection",
+      "value": "IP67"
+    }
+  },
+  "components": {
+    "title": "Components",
+    "items": {
+      "1": "Three-component strain gauge balance",
+      "2": "α-β mechanism with model holder",
+      "3": "Brushless motor with speed controller",
+      "4": "PLC controller, touchscreen display",
+      "5": "Air pressure receiver",
+      "6": "Specialized software with PC data transfer"
+    }
+  },
+  "capabilities": {
+    "title": "Functional Capabilities",
+    "items": {
+      "1": "Measurement of drag force, lift force, pitching moment, and airflow velocity",
+      "2": "Automated data processing",
+      "3": "Laminar airflow generation",
+      "4": "Touchscreen and/or PC control",
+      "5": "Autonomy: battery power supply available (included)",
+      "6": "Remote experiment operation"
     }
   },
   "courses": {
-    "title": "Educational Courses",
+    "title": "Educational Programs",
     "description": "Each wind tunnel comes with a complete set of educational materials and programs for various levels of education."
   }
 }

@@ -1,0 +1,35 @@
+{
+  "title": "For Educational Organizations",
+  "preview": {
+    "teaser": "A project-based educational complex for advanced teaching practices. 68+ academic hours of programs for schools, universities, and quantoriums."
+  },
+  "subtitle": "FLOWTECH WIND TUNNEL — a project-based educational complex for advanced teaching practices",
+  "features": {
+    "1": {
+      "title": "Learning Effectiveness",
+      "description": "Enhanced effectiveness of natural science and engineering educational programs"
+    },
+    "2": {
+      "title": "Technology Integration",
+      "description": "Integration of modern technological directions into the educational process based on research and project activities"
+    },
+    "3": {
+      "title": "Scientific Creativity",
+      "description": "Development of scientific and technical creativity through supplementary education and specialized programs"
+    },
+    "4": {
+      "title": "Competitions",
+      "description": "Improved performance in olympiads and competitions — our equipment is used at national-level events"
+    }
+  },
+  "mishustin": {
+    "name": "Mikhail Vladimirovich Mishustin",
+    "title": "",
+    "quote": "According to the base scenario of the Strategy for the Development of Unmanned Aviation of the Russian Federation up to 2030, it is necessary to train 1 million UAV industry workers by 2030."
+  },
+  "whatIsADT": {
+    "title": "What is a Wind Tunnel?",
+    "description": "An aerodynamic wind tunnel (AWT) is a specialized complex designed to simulate the effects of the environment on objects moving through it. Wind tunnels enable physical experiments on full-scale and scaled objects to obtain data for optimizing the shape and design of various objects."
+  },
+  "cta": "Request Quote"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "For UAS Developers",
+  "preview": {
+    "teaser": "A unique complex for conducting reliable aerodynamic testing of unmanned aerial systems at all development stages."
+  },
+  "subtitle": "FLOWTECH WIND TUNNEL — a unique complex for conducting reliable aerodynamic testing",
+  "intro": "Verification through recreated oncoming airflow:",
+  "features": {
+    "1": {
+      "title": "Interference Effects",
+      "description": "Detection of unaccounted interference effects in model airflow"
+    },
+    "2": {
+      "title": "Structural Integrity",
+      "description": "Testing the strength and rigidity of aircraft structures"
+    },
+    "3": {
+      "title": "Design Errors",
+      "description": "Detection of design errors and flight mode selection issues before full-scale testing"
+    },
+    "4": {
+      "title": "Solution Verification",
+      "description": "Confirmation of chosen structural and aerodynamic design decisions"
+    },
+    "5": {
+      "title": "UAV Characteristics",
+      "description": "Verification of declared flight performance characteristics of unmanned aircraft"
+    }
+  },
+  "cta": "Request Quote"
+}

@@ -1,0 +1,51 @@
+@import '@flowtech/shared/assets/fonts.css';
+@import '@flowtech/shared/theme/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0;
+  }
+}
+
+/* C2 "Tech" — blue-teal palette overrides */
+:root {
+  --color-bg-primary: #E8F0F4;
+  --color-bg-secondary: #D4E4EE;
+  --color-bg-accent: #1B7A8A;
+  --color-text-primary: #0F1923;
+  --color-text-secondary: #2A4A5A;
+  --color-text-muted: #5A7A8A;
+  --color-separator: #B0C4D8;
+}
+
+.dark {
+  --color-bg-primary: #0F1923;
+  --color-bg-secondary: #1A2E3E;
+  --color-bg-accent: #1B7A8A;
+  --color-text-primary: #F0F4F8;
+  --color-text-secondary: #B0C4D8;
+  --color-text-muted: #6B8299;
+  --color-separator: #2A4A5A;
+}
+
+.tech-grid-bg {
+  background-image:
+    linear-gradient(rgba(46, 196, 182, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(46, 196, 182, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.animate-bounce-down {
+  animation: bounce-down 2s ease-in-out infinite;
+}

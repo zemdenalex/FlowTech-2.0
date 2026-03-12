@@ -2,7 +2,10 @@
   "nav": {
     "about": "About",
     "product": "Product",
-    "schools": "Education",
+    "education": "For Educational Organizations",
+    "developers": "For UAS Developers",
+    "laboratory": "UAS Laboratory",
+    "procurement": "Procurement",
     "news": "News",
     "contacts": "Contacts"
   },
@@ -12,16 +15,16 @@
   "buttons": {
     "learnMore": "Learn More",
     "submit": "Submit",
-    "sendRequest": "Send Request"
+    "sendRequest": "Send Request",
+    "getQuote": "Request Quote"
   },
+  "backToHome": "Home",
   "language": {
     "ru": "Русский",
-    "en": "English",
-    "zh": "中文"
+    "en": "English"
   },
-  "stats": {
-    "hours": "68+ academic hours",
-    "specialists": "1M specialists by 2030",
-    "modifications": "3 wind tunnel models"
+  "partners": {
+    "title": "Partners",
+    "items": ["NTI Fund", "ANO University 2035", "Drone Garage Tech Workshop", "NPC UAS PROTOS", "Foundation for Assistance to Innovations", "Moscow Innovation Cluster", "Skolkovo Innovation Center", "ANO NTI Platform"]
   }
 }

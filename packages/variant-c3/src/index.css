@@ -1,0 +1,49 @@
+@import '@flowtech/shared/assets/fonts.css';
+@import '@flowtech/shared/theme/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0;
+  }
+}
+
+/* C3 "Editorial" — warm gold palette overrides */
+:root {
+  --color-bg-primary: #FAF7F2;
+  --color-bg-secondary: #EDE8E0;
+  --color-bg-accent: #8B7340;
+  --color-text-primary: #1A1714;
+  --color-text-secondary: #5A5040;
+  --color-text-muted: #8A7E6A;
+  --color-separator: #D4C8B0;
+}
+
+.dark {
+  --color-bg-primary: #1A1714;
+  --color-bg-secondary: #2A2520;
+  --color-bg-accent: #8B7340;
+  --color-text-primary: #F5F0E8;
+  --color-text-secondary: #D4C8B0;
+  --color-text-muted: #8A7E6A;
+  --color-separator: #3A3530;
+}
+
+::selection {
+  background: rgba(200, 165, 92, 0.3);
+  color: #F5F0E8;
+}
+
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.animate-bounce-down {
+  animation: bounce-down 2s ease-in-out infinite;
+}

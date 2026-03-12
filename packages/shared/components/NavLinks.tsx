@@ -1,19 +1,20 @@
 import { useTranslation } from 'react-i18next'
 
-const NAV_ITEMS = ['about', 'product', 'schools', 'news', 'contacts'] as const
+const DEFAULT_NAV_ITEMS = ['about', 'product', 'schools', 'news', 'contacts'] as const
 
 interface NavLinksProps {
   className?: string
   itemClassName?: string
   onClick?: (id: string) => void
+  items?: readonly string[]
 }
 
-const NavLinks = ({ className = '', itemClassName = '', onClick }: NavLinksProps) => {
+const NavLinks = ({ className = '', itemClassName = '', onClick, items = DEFAULT_NAV_ITEMS }: NavLinksProps) => {
   const { t } = useTranslation('common')
 
   return (
     <nav className={className}>
-      {NAV_ITEMS.map((id) => (
+      {items.map((id) => (
         <a
           key={id}
           href={`#${id}`}
