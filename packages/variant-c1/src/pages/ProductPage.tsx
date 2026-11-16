@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
-const specKeys = ['workingSection', 'speed', 'anglesAttack', 'anglesSlip', 'power', 'powerSupply', 'dimensions', 'protection'] as const
+const specKeys = ['workingSection', 'speed', 'anglesAttack', 'anglesSlip', 'power', 'powerSupply', 'dimensions'] as const
 
 const ProductPage = () => {
   const { t } = useTranslation('product')

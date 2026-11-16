@@ -28,7 +28,7 @@ const ProductPreview = () => {
               </p>
 
               <div className="grid grid-cols-2 gap-3 mb-6">
-                {['workingSection', 'speed', 'anglesAttack', 'anglesSlip', 'power', 'powerSupply', 'protection'].map((key) => (
+                {['workingSection', 'speed', 'anglesAttack', 'anglesSlip', 'power', 'powerSupply'].map((key) => (
                   <div key={key} className="border border-separator rounded-lg px-3 py-2">
                     <span className="block text-xs font-normal text-text-muted uppercase tracking-wider mb-1">
                       {t(`specs.${key}.label`)}

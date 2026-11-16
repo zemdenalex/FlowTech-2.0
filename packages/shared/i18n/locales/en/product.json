@@ -1,7 +1,7 @@
 {
   "title": "Product",
   "preview": {
-    "teaser": "Closed-circuit wind tunnel with enclosed working section. Speed up to 35 m/s, working section 200×200×500 mm, IP67 protection."
+    "teaser": "Closed-circuit wind tunnel with enclosed working section. Speed up to 35 m/s, working section 200×200×500 mm."
   },
   "subtitle": "FlowTech Aerodynamic Wind Tunnel",
   "pricing": "Price upon request — depends on configuration",
@@ -35,10 +35,6 @@
     "dimensions": {
       "label": "Dimensions",
       "value": "2140×730×1300 mm"
-    },
-    "protection": {
-      "label": "Protection",
-      "value": "IP67"
     }
   },
   "components": {
